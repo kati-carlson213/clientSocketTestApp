@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startClient() {
-        String IP = "127.0.0.1";
-        int port = 5000;
+        String IP = "127.0.0.1"; //edit IP to server's IP when actually testing 
+        int port = 5000; //edit to actual port being used
 
         new Thread(new Runnable() {
             @Override
